@@ -7,7 +7,7 @@ A long-range LoRa-enabled 1U CubeSat prototype and ground station system featuri
 
 ### 1. Embedded Processing & Onboard Intelligence
 * **Core Processing Unit:** Powered by the ESP32-S3 System-on-Chip (SoC), leveraging its dual-core architecture to decouple high-frequency sensor ingestion from communication scheduling.
-* **Bio-Inspired Solar Tracking Subsystem:** Implements an autonomous biomimicry scanning routine that optimizes solar irradiance collection while mitigating mechanical wear.
+* **Solar Tracking Subsystem:** Implements an autonomous biomimicry scanning routine that optimizes solar irradiance collection while mitigating mechanical wear.
   * **Scanning Routine:** Actuator sweeps are restricted to a calibrated $90^\circ$ safe window (between $45^\circ$ and $135^\circ$) to protect internal internal layout configurations and reduce motor strain.
   * **Lock-on State:** Upon detecting the peak lux threshold via localized light-dependent sensors, the system locks the solar arrays into a stable $180^\circ$ planar alignment to achieve maximum power efficiency.
 
