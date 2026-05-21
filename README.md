@@ -28,6 +28,15 @@ To maintain subsystem integrity during operational anomalies, the firmware inclu
 * **Emergency Isolation:** Automatically enters a low-power, safe-mode loop if telemetry links drop beyond critical timeouts or battery metrics degrade.
 * **Command Overrides:** Supports absolute hardware-level overrides via the TCP command link, enabling remote operators to execute emergency system hard resets and diagnostic state rollbacks.
 * **Data Security & Integrity:** Ingested packets are structured, verified through an Access Control List (ACL) layer, decrypted via AES-256 bit algorithms, and written directly into a local SQLite database architecture.
+  
+## Copyright & Legal Notice
+
+**Copyright © 2026 Mohamed Salah Abd Elfatah Mohamed Ragab. All Rights Reserved.**
+
+### ⚠️ WARNING & USAGE RESTRICTIONS
+* **Strict Prohibition:** Reproduction, redistribution, modification, mirroring, or public/commercial usage of any code, schematics, or architectural designs in this repository is strictly prohibited without prior explicit, written authorization from the author.
+* **Academic Integrity:** Any unauthorized copying, cloning, or plagiarism of this project for university graduation projects, conferences, or academic competitions will be met with immediate reporting to academic boards and copyright enforcement channels.
+* **Inquiries & Permissions:** If you wish to request permission for academic research or collaborative development, you must contact the author directly via the verified channels provided below.
 
 ---
 
@@ -39,11 +48,4 @@ To maintain subsystem integrity during operational anomalies, the firmware inclu
 ├── ground-station/     # Python-based user interface, network socket infrastructure, and SQLite data logging.
 ├── docs/               # System architecture block diagrams, wiring layouts, and database schemas.
 └── .gitignore          # Explicitly filters runtime databases (.db), compiled binaries, and IDE caches.
-## Copyright & Legal Notice
 
-**Copyright © 2026 Mohamed Salah Abd Elfatah Mohamed Ragab. All Rights Reserved.**
-
-### ⚠️ WARNING & USAGE RESTRICTIONS
-* **Strict Prohibition:** Reproduction, redistribution, modification, mirroring, or public/commercial usage of any code, schematics, or architectural designs in this repository is strictly prohibited without prior explicit, written authorization from the author.
-* **Academic Integrity:** Any unauthorized copying, cloning, or plagiarism of this project for university graduation projects, conferences, or academic competitions will be met with immediate reporting to academic boards and copyright enforcement channels.
-* **Inquiries & Permissions:** If you wish to request permission for academic research or collaborative development, you must contact the author directly via the verified channels provided below.
